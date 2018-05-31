@@ -20,8 +20,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 
 @RestController
-//ToDo: реальный URL фронтенд-сервера
-@CrossOrigin(origins = {"https://frontend_site.herokuapp.com", "http://localhost:3000"}, allowCredentials = "true")
+@CrossOrigin(origins = {"https://funny-race.xyz", "http://localhost:3000"}, allowCredentials = "true")
 @RequestMapping(path = "/api/avatars")
 public class ImageController {
 
